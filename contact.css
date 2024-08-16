@@ -1,0 +1,38 @@
+body {
+    padding-top: 6em; 
+    font-family: 'Brush Sript MT', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+}
+
+header {
+   
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    color: #f4f4f4;
+    
+}
+.icon{
+        display: flex;
+            width: 50%;
+            height: 100px;
+            justify-content: center;
+}
+form{
+    background-color: rgb(195, 232, 233);
+}
+
+.footer {
+    background-color: rgb(151, 172, 205); 
+    padding: 1em 0; 
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    
+
+}
